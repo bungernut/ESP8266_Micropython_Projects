@@ -6,7 +6,7 @@ https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
 https://docs.micropython.org/en/latest/esp8266/quickref.html#  
 
 https://github.com/dattasaurabh82/micropython-ssd1327/blob/master/ssd1327.py  
-```
+`
 >>> from machine import I2C, Pin                                                                                      
 >>> import ssd1327                                                                                                    
 >>> i2c = I2C(scl=Pin(5), sda=Pin(4))                                                                                                                                                      
@@ -20,3 +20,6 @@ https://github.com/dattasaurabh82/micropython-ssd1327/blob/master/ssd1327.py
 >>>                                                                                                                   
 ```
 
+https://docs.micropython.org/en/latest/esp8266/quickref.html#real-time-clock-rtc  
+https://docs.micropython.org/en/latest/library/micropython.html?highlight=schedule#micropython.schedule  
+https://github.com/danicampora/Micropython-scheduler/tree/master/lib  
